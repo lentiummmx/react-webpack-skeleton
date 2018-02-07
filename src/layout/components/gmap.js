@@ -116,7 +116,7 @@ export class GMap extends React.Component {
     return (
       <GoogleMap
         defaultZoom={4}
-        defaultCenter={{lat: 37.09024, lng: -99.712891}}
+        defaultCenter={{lat: 23.634501, lng: -102.55278399999997}}
         defaultOptions={{ scrollwheel: false }}
         defaultStyles={[{
           'featureType': 'all',
