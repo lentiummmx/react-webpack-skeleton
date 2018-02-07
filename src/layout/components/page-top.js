@@ -31,7 +31,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a notification alert',
         timeStamp: '02/13/95 9:00',
-        relativeTime: moment('02/13/95').fromNow(),
+        relativeTime: moment('02/13/95', 'MM-DD-YY').fromNow(),
       },
       {
         user: {
@@ -40,7 +40,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a notification alert',
         timeStamp: '07/13/16 12:00',
-        relativeTime: moment('07/13/16 12:00').fromNow(),
+        relativeTime: moment('07/13/16 12:00', 'MM-DD-YY HH:mm').fromNow(),
       },
       {
         user: {
@@ -49,7 +49,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a notification alert',
         timeStamp: '04/20/15 9:00',
-        relativeTime: moment('04/20/15 9:00').fromNow(),
+        relativeTime: moment('04/20/15 9:00', 'MM-DD-YY HH:mm').fromNow(),
       },
       {
         user: {
@@ -58,7 +58,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a notification alert',
         timeStamp: '07/19/16 8:00',
-        relativeTime: moment('07/19/16 8:00').fromNow(),
+        relativeTime: moment('07/19/16 8:00', 'MM-DD-YY HH:mm').fromNow(),
       },
       {
         user: {
@@ -67,7 +67,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a notification alert',
         timeStamp: '05/23/16 2:00',
-        relativeTime: moment('05/23/16 2:00').fromNow(),
+        relativeTime: moment('05/23/16 2:00', 'MM-DD-YY HH:mm').fromNow(),
       },
       {
         user: {
@@ -76,7 +76,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a notification alert',
         timeStamp: '05/01/16 4:00',
-        relativeTime: moment('05/01/16 4:00').fromNow(),
+        relativeTime: moment('05/01/16 4:00', 'MM-DD-YY HH:mm').fromNow(),
       }],
       messages: [{
         user: {
@@ -85,7 +85,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a message alert',
         timeStamp: '02/13/95 9:00',
-        relativeTime: moment('02/13/16').fromNow(),
+        relativeTime: moment('02/13/16', 'MM-DD-YY').fromNow(),
       },
       {
         user: {
@@ -94,7 +94,7 @@ export class PageTop extends React.Component {
         },
         subject: 'This is a message alert',
         timeStamp: '07/13/16 12:00',
-        relativeTime: moment('07/13/16 12:00').fromNow(),
+        relativeTime: moment('07/13/16 12:00', 'MM-DD-YY HH:mm').fromNow(),
       }],
     };
   }
